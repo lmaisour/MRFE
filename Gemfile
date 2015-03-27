@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#for precompiling assets for heroku
+gem 'rails_12factor', group: :production
+
 # gem for google maps integration
 gem 'gmaps4rails'
 

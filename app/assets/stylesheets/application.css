@@ -1,0 +1,420 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require bootstrap-material-design
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    opacity: 0;
+    z-index: 99;
+}
+
+.card {
+	margin-bottom: 5%;
+}
+.card-image {
+	height: 260px !important;
+}
+.card-title {
+	height: 50px;
+	text-align: center;
+	padding: 2%;
+	background-color: #009587;
+}
+.card-action {
+	height: 100px;
+	padding: 2%;
+}
+
+.jumbotron {
+	padding: 0px !important;
+}
+
+.ha-bg-parallax {
+    background: url(https://download.unsplash.com/photo-1421284621639-884f4129b61d) 50% -195px no-repeat fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 580px;
+    margin: 0 auto;
+    width: 100%;
+    display: table;
+    vertical-align: middle;
+}
+
+.ha-bg-parallax .ha-parallax-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.ha-bg-parallax .ha-content-whitecolor {
+    font-size: 40px;
+    color: #ffffff;
+    width: 65%;
+    margin: auto;
+    margin-top: -13%;
+}
+
+.ha-bg-parallax .ha-diamond-divider-md {
+    margin: 15px 0px;
+}
+
+.ha-bg-parallax .ha-heading-parallax {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: none;
+    color: #ffffff;
+    padding-bottom: 0px;
+}
+
+.style_image {
+	height: 450px;
+}
+
+#DIV_1 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 586.75px;
+    width: 1045px;
+    perspective-origin: 522.5px 293.375px;
+    transform-origin: 522.5px 293.375px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    outline: rgb(86, 90, 92) none 0px;
+    padding: 0px 25px;
+}/*#DIV_1*/
+
+#DIV_1:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(86, 90, 92);
+    display: table;
+    width: 1px;
+    perspective-origin: 0.5px 0px;
+    transform-origin: 0.5px 0px;
+    content: ' ';
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_1:after*/
+
+#DIV_1:before {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    display: table;
+    width: 1px;
+    perspective-origin: 0.5px 0px;
+    transform-origin: 0.5px 0px;
+    content: ' ';
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_1:before*/
+
+#DIV_2 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 63.25px;
+    text-align: center;
+    width: 995px;
+    perspective-origin: 497.5px 31.625px;
+    transform-origin: 497.5px 31.625px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 50px 0px 37.5px;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_2*/
+
+#H2_3 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 35px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    width: 995px;
+    perspective-origin: 497.5px 17.5px;
+    transform-origin: 497.5px 17.5px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal bold normal 32px/35.2000007629395px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px 0px 6.25px;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#H2_3*/
+
+#P_4 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 22px;
+    text-align: center;
+    width: 995px;
+    perspective-origin: 497.5px 11px;
+    transform-origin: 497.5px 11px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 16px/22.8799991607666px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px 0px 15px;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#P_4*/
+
+#DIV_5, #DIV_6 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 436px;
+    width: 995px;
+    perspective-origin: 497.5px 218px;
+    transform-origin: 497.5px 218px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_5, #DIV_6*/
+
+#DIV_7 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 369px;
+    width: 1020px;
+    perspective-origin: 510px 184.5px;
+    transform-origin: 510px 184.5px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px -12.5px;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_7*/
+
+#DIV_7:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(86, 90, 92);
+    display: table;
+    width: 1px;
+    perspective-origin: 0.5px 0px;
+    transform-origin: 0.5px 0px;
+    content: ' ';
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_7:after*/
+
+#DIV_7:before {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    display: table;
+    width: 1px;
+    perspective-origin: 0.5px 0px;
+    transform-origin: 0.5px 0px;
+    content: ' ';
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_7:before*/
+
+#DIV_8, #DIV_14, #DIV_20 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    float: left;
+    height: 369px;
+    min-height: 1px;
+    position: relative;
+    width: 339.984375px;
+    perspective-origin: 169.984375px 184.5px;
+    transform-origin: 169.984375px 184.5px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+    padding: 0px 12.5px;
+}/*#DIV_8, #DIV_14, #DIV_20*/
+
+#DIV_9 {
+    background-position: 50% 50%;
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 344px;
+    position: relative;
+    width: 314.984375px;
+    perspective-origin: 157.484375px 172px;
+    transform-origin: 157.484375px 172px;
+    background: rgb(245, 245, 245) url(https://a0.muscache.com/ic/discover/2584?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&downsize=675px:675px) repeat scroll 50% 50% / cover padding-box border-box;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px 0px 25px;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_9*/
+
+#A_10, #A_16, #A_22 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    text-decoration: none;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#A_10, #A_16, #A_22*/
+
+#DIV_11, #DIV_17, #DIV_23 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    display: table;
+    height: 344px;
+    position: relative;
+    width: 314px;
+    perspective-origin: 157px 172px;
+    transform-origin: 157px 172px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_11, #DIV_17, #DIV_23*/
+
+#DIV_12, #DIV_18, #DIV_24 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: table-cell;
+    height: 344px;
+    text-align: center;
+    vertical-align: middle;
+    width: 314px;
+    perspective-origin: 157px 172px;
+    transform-origin: 157px 172px;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_12, #DIV_18, #DIV_24*/
+
+#DIV_13, #DIV_19, #DIV_25 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    width: 314px;
+    perspective-origin: 157px 17.5px;
+    transform-origin: 157px 17.5px;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold normal 32px/35.2000007629395px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_13, #DIV_19, #DIV_25*/
+
+#DIV_15 {
+    background-position: 50% 50%;
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 344px;
+    position: relative;
+    width: 314.984375px;
+    perspective-origin: 157.484375px 172px;
+    transform-origin: 157.484375px 172px;
+    background: rgb(245, 245, 245) url(https://a0.muscache.com/ic/discover/1480?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&downsize=675px:675px) repeat scroll 50% 50% / cover padding-box border-box;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px 0px 25px;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_15*/
+
+#DIV_21 {
+    background-position: 50% 50%;
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 344px;
+    position: relative;
+    width: 314.984375px;
+    perspective-origin: 157.484375px 172px;
+    transform-origin: 157.484375px 172px;
+    background: rgb(245, 245, 245) url(https://a1.muscache.com/ic/discover/2012?interpolation=lanczos-none&output-format=jpg&output-quality=70&v=33b4f2&downsize=675px:675px) repeat scroll 50% 50% / cover padding-box border-box;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px 0px 25px;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_21*/
+
+#DIV_26 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    height: 67px;
+    width: 1020px;
+    perspective-origin: 510px 33.5px;
+    transform-origin: 510px 33.5px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px -12.5px;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_26*/
+
+#DIV_26:after {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(86, 90, 92);
+    display: table;
+    width: 1px;
+    perspective-origin: 0.5px 0px;
+    transform-origin: 0.5px 0px;
+    content: ' ';
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_26:after*/
+
+#DIV_26:before {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    display: table;
+    width: 1px;
+    perspective-origin: 0.5px 0px;
+    transform-origin: 0.5px 0px;
+    content: ' ';
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+}/*#DIV_26:before*/
+
+#DIV_27 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    float: left;
+    height: 42px;
+    min-height: 1px;
+    position: relative;
+    width: 339.984375px;
+    perspective-origin: 169.984375px 21px;
+    transform-origin: 169.984375px 21px;
+    border: 0px none rgb(86, 90, 92);
+    font: normal normal normal normal 14px/20.0200004577637px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 25px 0px 0px 339.984375px;
+    outline: rgb(86, 90, 92) none 0px;
+    padding: 0px 12.5px;
+}/*#DIV_27*/
+
+#A_28 {
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    cursor: pointer;
+    display: block;
+    height: 42px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 314.984375px;
+    perspective-origin: 157.484375px 21px;
+    transform-origin: 157.484375px 21px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal bold normal 16px/22.8799991607666px Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    outline: rgb(86, 90, 92) none 0px;
+    padding: 9px 27px;
+}/*#A_28*/
+

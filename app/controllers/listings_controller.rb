@@ -16,9 +16,9 @@ class ListingsController < ApplicationController
   end
 
   def index
-    # Listing.get_new_listings
-    # Listing.create_new_listings(Listing.get_new_listings)
-    # Listing.add_images_to_listings(Listing.get_new_listings)
+    Listing.get_new_listings
+    Listing.create_new_listings(Listing.get_new_listings)
+    Listing.add_images_to_listings(Listing.get_new_listings)
     twentyfive = Listing.last(25)
     @listings = []
     twentyfive.each do |x|
